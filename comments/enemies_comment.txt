@@ -1,0 +1,6 @@
+In order to create enemies, I had to add their definitions in an array in defineObjectInputs function.
+This array is iterated in a loop that is responsible to create the enemy objects, from a constructor function, and place them in an array containing all the enemy objects.
+I used the constructor design pattern since it is a good candidate object for later expansion (for example add the ability to kill enemies, having health, providing points to the score, etc).
+The enemies are ghost-like and they are able to hover over the ground and over the canyons.
+Added ability to patrol in specific ranges that can be defined per enemy
+Added ability to adjust their speeds, an option that can be defined per enemy, and create more varied results.

@@ -1,0 +1,10 @@
+I added multiple sounds in the project for reasons like:
+- The game character jumps (Mario like)
+- The game character makes contact with a heart collectable
+- The game character falls inside a canyon.
+- The game character makes contact with a ghost enemy.
+- The game character touches the flagpole
+- A background music which is looped, and starts when the character starts moving.
+To find music and sound I visted the website: "Zapsplat.com" which has free sounds, but I had to also add credits in my html based on their terms.
+I found a bit tricky to start the music in the setup function, since the mp3 file didnt manage to load before the page was loaded. 
+To overcome the above I had to use an enxtra variable and place the loop command in the draw function. The extra variable exists to control how many times the music is started (1 at the beginning).
